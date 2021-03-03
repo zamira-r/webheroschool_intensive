@@ -1,6 +1,9 @@
 body{
   margin: 0;
 }
+.main-content{
+  width: 30%;
+}
 .main-content__title{
   font-family: 'Roboto';
 }
@@ -8,7 +11,7 @@ body{
     margin: auto;
     width: 80%
 }
-.header{
+.header, .main_section{
   display: flex;
   justify-content: space-between;
   align-items: center;
